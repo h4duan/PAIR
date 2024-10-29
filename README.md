@@ -35,6 +35,10 @@ This repository contains the implementation of "Boosting the Predictive Power of
 - `_/config.py`: Hyperparameters of the model
 - `dataloader_ddp.py`: General implementations of the data loader
 
+## Installation
+
+pip install -r requirements.txt
+
 ## Running the code
 
 ### Data preparation
@@ -53,6 +57,13 @@ This repository contains the implementation of "Boosting the Predictive Power of
 1. `cd _evaluation`
 2. Change `modelname`, `trainset`, `valset` in `submit.sh`
 3. Submit the job `sbatch submit.sh` in slurm.
+
+## Questions
+
+For questions about the code or paper, please contact:
+
+### haonand@cs.toronto.edu
+### martaskreta@cs.toronto.edu
 
 
 
