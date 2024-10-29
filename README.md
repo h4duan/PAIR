@@ -35,6 +35,24 @@ This repository contains the implementation of "Boosting the Predictive Power of
 - `_/config.py`: Hyperparameters of the model
 - `dataloader_ddp.py`: General implementations of the data loader
 
+## Running the code
+
+### Data preparation
+
+1. Download the xml.gz from UniProt and change the paths in `_config/paths.yml`.
+2. Change the parse flag in `_config/fact_types.yml` to True
+3. Run `python parse.py`
+
+### Training
+
+1. Change the hyperparameters in `_model/config.py`.
+2. Adjust the compute configuration in `submit_worker_reference.sh` according to your cluster.
+3. Submit the job `sbatch submit.sh` in slurm.
+
+### Evaluation
+1. `cd _evaluation`
+2. Change `modelname`, `trainset`, `valset` in `submit.sh`
+3. Submit the job `sbatch submit.sh` in slurm.
 
 
 
