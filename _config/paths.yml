@@ -1,0 +1,40 @@
+#Input files, add dates as name-yyyy-mm.
+uniprot-sprot-2023-02: /work1/maddison/haonand/uniprot_sprot_202302.xml.gz # when it was created 
+  # link: https://ftp.uniprot.org/pub/databases/uniprot/previous_major_releases/release-2022_02/knowledgebase/
+  # file name: uniprot_sprot-only2022_02.tar.gz
+uniprot-isoform_pid2seq-2023-06: /work1/maddison/haonand/isoform_pid2seq.fasta #this is when it was created
+enzyme-ec-deg123-2023-02: /ssd005/projects/uniprot_aspuru/uniprot_release_202302/knowledgebase-docs-only2023_02/docs/enzclass.txt # this is when it was created 
+  # link: https://ftp.uniprot.org/pub/databases/uniprot/previous_major_releases/release-2023_02/knowledgebase/ 
+  # file name: knowledgebase-docs-only2023_02.tar.gz 
+enzyme-ec-deg4-2023-06: /ssd005/projects/uniprot_aspuru/enzyme.dat
+variant-data-2023-02: /ssd005/projects/uniprot_aspuru/uniprot_release_202302/knowledgebase-docs-only2023_02/docs/humsavar.txt # this is when it was created 
+  # link: https://ftp.uniprot.org/pub/databases/uniprot/previous_major_releases/release-2023_02/knowledgebase/ 
+  # file name: knowledgebase-docs-only2023_02.tar.gz 
+quickgo-2023-02:  /ssd005/projects/uniprot_aspuru/uniprot_release_202302/goa_uniprot_all.gaf.213
+  # link: http://ftp.ebi.ac.uk/pub/databases/GO/goa/old/UNIPROT/ 
+  # file name: http://ftp.ebi.ac.uk/pub/databases/GO/goa/old/UNIPROT/goa_uniprot_all.gaf.213.gz
+go-graph-2023-01: http://release.geneontology.org/2023-01-01/ontology/go-basic.obo # this is when it was created 
+eco-mapping-2024-01: /ssd005/projects/uniprot_aspuru/mappings/eco2gotag.txt #this is when it was obtained
+interpro-mapping-2024-01: /work1/maddison/haonand/interpro_entry_list.txt
+kw-mapping-2023-02: /work1/maddison/haonand/keywlist.txt
+  # this is when it wascreated
+  # this is when mapping was obtained
+  # link: https://ftp.ebi.ac.uk/pub/databases/interpro/current_release/entry.list
+pfam-mapping-2023-01: /work1/maddison/haonand/Pfam-A.clans.tsv 
+  # this is when mapping was obtained
+  # link: https://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam35.0/Pfam-A.clans.tsv.gz
+uniref50-pid2cluster-2023-02: /work1/maddison/haonand/uniref50_pid2cluster_202302.json
+uniref50-cluster2pid-2023-02: /work1/maddison/haonand/uniref50_cluster2pid_202302.json
+  # link: https://ftp.uniprot.org/pub/databases/uniprot/previous_major_releases/release-2023_02/uniref/
+  # file name: https://ftp.uniprot.org/pub/databases/uniprot/previous_major_releases/release-2023_02/uniref/uniref2023_02.tar.gz
+mmseq2-split-clusters-2023-02: /ssd005/projects/uniprot_aspuru/uniprot_release_202302/mmseq2_split/mmseq2_split10_uniref50/mmseq2_split10_uniref50_cluster.tsv 
+  # mmseq2 command used: mmseqs easy-cluster uniref50_seq/uniref50_centres.fasta mmseq2_split10_uniref50 tmp --min-seq-id 0.1 --alignment-mode 3 --max-seqs 300 -s 7 -c 0.8 --cov-mode 0 
+  # source: https://github.com/soedinglab/MMseqs2
+# Output directories, add date to file names
+pathbank-proteins-2019-08: /ssd005/projects/uniprot_aspuru/pathbank_all_proteins.csv
+pathbank-pathways-2019-08: /ssd005/projects/uniprot_aspuru/pathbank_pathways.csv
+
+frames: /work1/maddison/haonand/biochem_frames_2024/biochem_frames_jan/biochem_frames/ #this is where we are saving fact frames
+
+load_variants: False
+load_isoforms: False

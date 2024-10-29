@@ -1,0 +1,507 @@
+protein_similarity_text:
+  parse:
+    False
+  load:
+    False
+  augment_with_variants:
+    False
+  augment_with_isoforms:
+    False
+  use_organism:
+    False
+  anonymize:
+    False
+  protein_max_length:
+    1024
+  sample_one_sentence:
+    False
+#####
+protein_papertitle:
+  parse:
+    False
+  load:
+    True
+  augment_with_variants:
+    False
+  augment_with_isoforms:
+    False
+  use_organism:
+    False
+  anonymize:
+    False
+  protein_max_length:
+    1024
+  sample_one_sentence:
+    False
+  sample_function_only:
+    True
+#####
+protein_keywords:
+  parse:
+    False
+  load:
+    True
+  augment_with_variants:
+    False
+  augment_with_isoforms:
+    False
+  use_organism:
+    False
+  anonymize:
+    False
+  protein_max_length:
+    1024
+  sample_one_sentence:
+    False
+  keep_go_kw:
+    False
+#####
+protein_activity_regulation_text:
+  parse:
+    False
+  load:
+    False
+  augment_with_variants:
+    False
+  augment_with_isoforms:
+    False
+  use_organism:
+    False
+  anonymize:
+    False
+  protein_max_length:
+    1024
+  sample_one_sentence:
+    False
+#####
+protein_induction_text:
+  parse:
+    False
+  load:
+    False
+  augment_with_variants:
+    False
+  augment_with_isoforms:
+    False
+  use_organism:
+    False
+  anonymize:
+    False
+  protein_max_length:
+    1024
+  sample_one_sentence:
+    False
+#####
+protein_biotechnology_text:
+  parse:
+    False
+  load:
+    False
+  augment_with_variants:
+    False
+  augment_with_isoforms:
+    False
+  use_organism:
+    False
+  anonymize:
+    False
+  protein_max_length:
+    1024
+  sample_one_sentence:
+    False
+#####
+protein_allergen_text:
+  parse:
+    False
+  load:
+    False
+  augment_with_variants:
+    False
+  augment_with_isoforms:
+    False
+  use_organism:
+    False
+  anonymize:
+    False
+  protein_max_length:
+    1024
+  sample_one_sentence:
+    False
+#####
+protein_pharmaceutical_text:
+   parse:
+     False
+   load:
+     False
+   augment_with_variants:
+     False
+   augment_with_isoforms:
+     False
+   use_organism:
+     False
+   anonymize:
+     False
+   protein_max_length:
+     1024
+   sample_one_sentence:
+     False
+#####
+protein_function:
+  parse:
+    False
+  load:
+    False
+  augment_with_variants:
+    False
+  augment_with_isoforms:
+    False
+  use_organism:
+    False
+  anonymize:
+    False
+  protein_max_length:
+    1024
+  sample_one_sentence:
+    False
+######
+protein_ptm:
+  parse:
+    False
+  load:
+    False
+  augment_with_variants:
+    False
+  augment_with_isoforms:
+    False
+  use_organism:
+    False
+  anonymize:
+    False
+  protein_max_length:
+    1024
+  sample_one_sentence:
+    False
+######
+protein_variant_disease:
+  parse:
+    False
+  load:
+    False
+  protein_max_length:
+    1024
+######
+protein_tissue_specificity_anon:
+  parse:
+    False
+  load:
+    False
+  augment_with_variants:
+    False
+  augment_with_isoforms:
+    False
+  use_organism:
+    False
+  protein_max_length:
+    1024
+######
+protein_family:
+  parse:
+    False
+  load:
+    False
+  augment_with_variants:
+    False
+  augment_with_isoforms:
+    False
+  use_organism:
+    False
+  protein_max_length:
+    1024
+######
+protein_domain:
+  parse:
+    False
+  load:
+    False
+  augment_with_variants:
+    False
+  augment_with_isoforms:
+    False
+  use_organism:
+    False
+  protein_max_length:
+    1024
+  joint:
+    True
+  parse_pfam:
+    True
+  parse_interpro:
+    False
+######
+protein_organism:
+  parse:
+    False
+  load:
+    False
+  augment_with_variants:
+    False
+  augment_with_isoforms:
+    False
+  protein_max_length:
+    1024
+######
+protein_recommended_name:
+  parse:
+    False
+  load:
+    False
+  augment_with_variants:
+    False
+  augment_with_isoforms:
+    False
+  use_organism:
+    False
+  protein_max_length:
+    1024
+  preprocess:
+    False
+  upsample:
+    False
+######
+protein_alternative_name:
+  parse:
+    False
+  load:
+    False
+  augment_with_variants:
+    False
+  augment_with_isoforms:
+    False
+  use_organism:
+    False
+  protein_max_length:
+    1024
+  joint:
+    False
+######
+protein_ec:
+  parse:
+    False
+  load:
+    False
+  augment_with_variants:
+    False
+  augment_with_isoforms:
+    False
+  use_organism:
+    False
+  p:
+    0.0 # probe of using text
+  joint:
+    False
+  protein_max_length:
+    1024
+  upsample:
+    False
+  filter_n:
+    False
+######
+protein_catalytic_activity:
+  parse:
+    False
+  load:
+    False
+  augment_with_variants:
+    False
+  augment_with_isoforms:
+    False
+  use_organism:
+    False
+  protein_max_length:
+    1024
+######
+protein_cofactor:
+  parse:
+    False
+  load:
+    False
+  augment_with_variants:
+    False
+  augment_with_isoforms:
+    False
+  use_organism:
+    False
+  protein_max_length:
+    1024
+######
+protein_toxic_dose:
+  parse:
+    False
+  load:
+    False
+  augment_with_variants:
+    False
+  augment_with_isoforms:
+    False
+  use_organism:
+    False
+  protein_max_length:
+    1024
+######
+protein_biophysicochemical_properties:
+  parse:
+    False
+  load:
+    False
+  augment_with_variants:
+    False
+  augment_with_isoforms:
+    False
+  use_organism:
+    False
+  protein_max_length:
+    1024
+  joint:
+    False
+######
+protein_subunit:
+  parse:
+    False
+  load:
+    False
+  augment_with_variants:
+    False
+  augment_with_isoforms:
+    False
+  use_organism:
+    False
+  protein_max_length:
+    1024
+######
+protein_binding_sites:
+  parse:
+    False
+  load:
+    False
+  augment_with_variants:
+    False
+  augment_with_isoforms:
+    False
+  use_organism:
+    False
+  protein_max_length:
+    1024
+  joint:
+    True
+######
+protein_active_sites:
+  parse:
+    False
+  load:
+    True
+  augment_with_variants:
+    False
+  augment_with_isoforms:
+    False
+  use_organism:
+    False
+  protein_max_length:
+    1024
+  joint:
+    True
+######
+protein_sites:
+  parse:
+    False
+  load:
+    False
+  augment_with_variants:
+    False
+  augment_with_isoforms:
+    False
+  use_organism:
+    False
+  protein_max_length:
+    1024
+  joint:
+    True
+######
+protein_go:
+  parse:
+    False
+  load:
+    False
+  augment_with_variants:
+    False
+  augment_with_isoforms:
+    False
+  use_organism:
+    False
+  joint:
+    False
+  sample_path:
+    False
+  max_hop:
+    2
+  p:
+    1
+  subontology:
+    "molecular_function"
+  protein_max_length:
+    1024
+  filter_exp_tags:
+    False
+  incl_ancestors:
+    False
+  upsample:
+    False
+########
+protein_all_names:
+  parse:
+    False
+  load:
+    False
+  augment_with_variants:
+    False
+  augment_with_isoforms:
+    False
+  use_organism:
+    False
+  protein_max_length:
+    1024
+  load_recommended_only:
+    False
+  load_alternative_only:
+    False
+  load_all_names:
+    False
+  joint:
+    False
+########
+protein_subcellular_location:
+  parse:
+    False
+  load:
+    False
+  augment_with_variants:
+    False
+  augment_with_isoforms:
+    False
+  use_organism:
+    False
+  protein_max_length:
+    1024
+########
+protein_pathway:
+  parse:
+    False
+  load:
+    False
+  augment_with_variants:
+    False
+  augment_with_isoforms:
+    False
+  use_organism:
+    False
+  protein_max_length:
+    1024
