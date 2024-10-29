@@ -58,12 +58,24 @@ pip install -r requirements.txt
 2. Change `modelname`, `trainset`, `valset` in `submit.sh`
 3. Submit the job `sbatch submit.sh` in slurm.
 
-## Questions
+## Contact
 
-For questions about the code or paper, please contact:
+- Email: haonand@cs.toronto.edu, martaskreta@cs.toronto.edu
 
-### haonand@cs.toronto.edu
-### martaskreta@cs.toronto.edu
+
+## Citation
+
+If you use this work in your research, please cite:
+
+### Paper
+```bibtex
+@article{duan2024boosting,
+   title={Boosting the Predictive Power of Protein Representations with a Corpus of Text Annotations},
+   author={Duan, Haonan and Skreta, Marta and Cotta, Leonardo and Rajaonson, Ella Miray and Dhawan, Nikita and Aspuru-Guzik, Al{\'a}n and Maddison, Chris J.},
+   journal={bioRxiv},
+   year={2024},
+   doi={10.1101/2024.07.22.604688}
+}
 
 
 
