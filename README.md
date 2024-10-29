@@ -1,6 +1,7 @@
 # PAIR: Protein Annotation-Improved Representations
 
-[![Paper](https://www.biorxiv.org/content/10.1101/2024.07.22.604688v2.abstract)]
+[![Paper](https://img.shields.io/badge/Paper-bioRxiv-red)](https://www.biorxiv.org/content/10.1101/2024.07.22.604688v2.abstract)
+
 
 This repository contains the implementation of "Boosting the Predictive Power of Protein Representations with a Corpus of Text Annotations" (2024).
 
