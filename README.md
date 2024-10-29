@@ -5,6 +5,8 @@
 
 This repository contains the implementation of "Boosting the Predictive Power of Protein Representations with a Corpus of Text Annotations" (2024).
 
+(pair.png)
+
 ## Highlights
 
 - Fine-tuning framework for protein language models
